@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0349441A216AB400C955BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0349431A216AB400C955BD /* AppDelegate.swift */; };
+		1D0349461A216AB400C955BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0349451A216AB400C955BD /* ViewController.swift */; };
+		1D0349481A216AB400C955BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0349471A216AB400C955BD /* Images.xcassets */; };
+		1D03494B1A216AB400C955BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0349491A216AB400C955BD /* Main.storyboard */; };
+		1D0349571A216AB400C955BD /* Atk_Rnd_Fractal2dTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0349561A216AB400C955BD /* Atk_Rnd_Fractal2dTests.swift */; };
+		1D0349631A216B6100C955BD /* FractalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0349621A216B6100C955BD /* FractalView.swift */; };
+		1D4767721A38259E00EDEFBB /* JuliaSetParamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4767711A38259E00EDEFBB /* JuliaSetParamsViewController.swift */; };
+		1D4767761A3827E700EDEFBB /* FractalMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4767751A3827E700EDEFBB /* FractalMetadata.swift */; };
+		1D73E9F31A25B57400A0818C /* Rect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E9F21A25B57400A0818C /* Rect.swift */; };
+		1D73E9F51A25B60B00A0818C /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E9F41A25B60B00A0818C /* Size.swift */; };
+		1D73E9F71A25C9EF00A0818C /* FractalParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E9F61A25C9EF00A0818C /* FractalParams.swift */; };
+		1DE3BCD61A2261BF008964EA /* AtkCocoaShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE3BCD41A225A91008964EA /* AtkCocoaShared.framework */; };
+		1DE3BCD71A2261BF008964EA /* AtkCocoaShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE3BCD41A225A91008964EA /* AtkCocoaShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1DE3BCDA1A22777D008964EA /* Fractal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3BCD91A22777D008964EA /* Fractal.swift */; };
+		1DF804461A2D85070038CBDB /* ImageVideoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF804451A2D85070038CBDB /* ImageVideoRecorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D0349511A216AB400C955BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D0349361A216AB400C955BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D03493D1A216AB400C955BD;
+			remoteInfo = Atk_Rnd_Fractal2d;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DE3BCD81A2261BF008964EA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1DE3BCD71A2261BF008964EA /* AtkCocoaShared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D03493E1A216AB400C955BD /* Atk_Rnd_Fractal2d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atk_Rnd_Fractal2d.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0349421A216AB400C955BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D0349431A216AB400C955BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D0349451A216AB400C955BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D0349471A216AB400C955BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D03494A1A216AB400C955BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D0349501A216AB400C955BD /* Atk_Rnd_Fractal2dTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Atk_Rnd_Fractal2dTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0349551A216AB400C955BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D0349561A216AB400C955BD /* Atk_Rnd_Fractal2dTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atk_Rnd_Fractal2dTests.swift; sourceTree = "<group>"; };
+		1D0349621A216B6100C955BD /* FractalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FractalView.swift; sourceTree = "<group>"; };
+		1D4767711A38259E00EDEFBB /* JuliaSetParamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JuliaSetParamsViewController.swift; sourceTree = "<group>"; };
+		1D4767751A3827E700EDEFBB /* FractalMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FractalMetadata.swift; sourceTree = "<group>"; };
+		1D73E9F21A25B57400A0818C /* Rect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rect.swift; sourceTree = "<group>"; };
+		1D73E9F41A25B60B00A0818C /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		1D73E9F61A25C9EF00A0818C /* FractalParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FractalParams.swift; sourceTree = "<group>"; };
+		1DE3BCD41A225A91008964EA /* AtkCocoaShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AtkCocoaShared.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Atk_SharedComponents-cyarakmqhzphvveloycyshguxjxv/Build/Products/Debug/AtkCocoaShared.framework"; sourceTree = "<group>"; };
+		1DE3BCD91A22777D008964EA /* Fractal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fractal.swift; sourceTree = "<group>"; };
+		1DF804431A2D85070038CBDB /* Atk_Rnd_Fractal2d-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Atk_Rnd_Fractal2d-Bridging-Header.h"; sourceTree = "<group>"; };
+		1DF804441A2D85070038CBDB /* ImageVideoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageVideoRecorder.h; sourceTree = "<group>"; };
+		1DF804451A2D85070038CBDB /* ImageVideoRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageVideoRecorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D03493B1A216AB400C955BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE3BCD61A2261BF008964EA /* AtkCocoaShared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D03494D1A216AB400C955BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D0349351A216AB400C955BD = {
+			isa = PBXGroup;
+			children = (
+				1D0349401A216AB400C955BD /* Atk_Rnd_Fractal2d */,
+				1D0349531A216AB400C955BD /* Atk_Rnd_Fractal2dTests */,
+				1D03493F1A216AB400C955BD /* Products */,
+				1DE3BCD41A225A91008964EA /* AtkCocoaShared.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		1D03493F1A216AB400C955BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D03493E1A216AB400C955BD /* Atk_Rnd_Fractal2d.app */,
+				1D0349501A216AB400C955BD /* Atk_Rnd_Fractal2dTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D0349401A216AB400C955BD /* Atk_Rnd_Fractal2d */ = {
+			isa = PBXGroup;
+			children = (
+				1D0349431A216AB400C955BD /* AppDelegate.swift */,
+				1D0349451A216AB400C955BD /* ViewController.swift */,
+				1D0349471A216AB400C955BD /* Images.xcassets */,
+				1D0349491A216AB400C955BD /* Main.storyboard */,
+				1D0349411A216AB400C955BD /* Supporting Files */,
+				1D0349621A216B6100C955BD /* FractalView.swift */,
+				1DE3BCD91A22777D008964EA /* Fractal.swift */,
+				1D73E9F61A25C9EF00A0818C /* FractalParams.swift */,
+				1D73E9F21A25B57400A0818C /* Rect.swift */,
+				1D73E9F41A25B60B00A0818C /* Size.swift */,
+				1DF804441A2D85070038CBDB /* ImageVideoRecorder.h */,
+				1DF804451A2D85070038CBDB /* ImageVideoRecorder.m */,
+				1DF804431A2D85070038CBDB /* Atk_Rnd_Fractal2d-Bridging-Header.h */,
+				1D4767711A38259E00EDEFBB /* JuliaSetParamsViewController.swift */,
+				1D4767751A3827E700EDEFBB /* FractalMetadata.swift */,
+			);
+			path = Atk_Rnd_Fractal2d;
+			sourceTree = "<group>";
+		};
+		1D0349411A216AB400C955BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D0349421A216AB400C955BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D0349531A216AB400C955BD /* Atk_Rnd_Fractal2dTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D0349561A216AB400C955BD /* Atk_Rnd_Fractal2dTests.swift */,
+				1D0349541A216AB400C955BD /* Supporting Files */,
+			);
+			path = Atk_Rnd_Fractal2dTests;
+			sourceTree = "<group>";
+		};
+		1D0349541A216AB400C955BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D0349551A216AB400C955BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D03493D1A216AB400C955BD /* Atk_Rnd_Fractal2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D03495A1A216AB400C955BD /* Build configuration list for PBXNativeTarget "Atk_Rnd_Fractal2d" */;
+			buildPhases = (
+				1D03493A1A216AB400C955BD /* Sources */,
+				1D03493B1A216AB400C955BD /* Frameworks */,
+				1D03493C1A216AB400C955BD /* Resources */,
+				1DE3BCD81A2261BF008964EA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Atk_Rnd_Fractal2d;
+			productName = Atk_Rnd_Fractal2d;
+			productReference = 1D03493E1A216AB400C955BD /* Atk_Rnd_Fractal2d.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D03494F1A216AB400C955BD /* Atk_Rnd_Fractal2dTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D03495D1A216AB400C955BD /* Build configuration list for PBXNativeTarget "Atk_Rnd_Fractal2dTests" */;
+			buildPhases = (
+				1D03494C1A216AB400C955BD /* Sources */,
+				1D03494D1A216AB400C955BD /* Frameworks */,
+				1D03494E1A216AB400C955BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D0349521A216AB400C955BD /* PBXTargetDependency */,
+			);
+			name = Atk_Rnd_Fractal2dTests;
+			productName = Atk_Rnd_Fractal2dTests;
+			productReference = 1D0349501A216AB400C955BD /* Atk_Rnd_Fractal2dTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D0349361A216AB400C955BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Asymptotik Limited";
+				TargetAttributes = {
+					1D03493D1A216AB400C955BD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1D03494F1A216AB400C955BD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 1D03493D1A216AB400C955BD;
+					};
+				};
+			};
+			buildConfigurationList = 1D0349391A216AB400C955BD /* Build configuration list for PBXProject "Atk_Rnd_Fractal2d" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D0349351A216AB400C955BD;
+			productRefGroup = 1D03493F1A216AB400C955BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D03493D1A216AB400C955BD /* Atk_Rnd_Fractal2d */,
+				1D03494F1A216AB400C955BD /* Atk_Rnd_Fractal2dTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D03493C1A216AB400C955BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0349481A216AB400C955BD /* Images.xcassets in Resources */,
+				1D03494B1A216AB400C955BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D03494E1A216AB400C955BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D03493A1A216AB400C955BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0349631A216B6100C955BD /* FractalView.swift in Sources */,
+				1D4767721A38259E00EDEFBB /* JuliaSetParamsViewController.swift in Sources */,
+				1D0349461A216AB400C955BD /* ViewController.swift in Sources */,
+				1DE3BCDA1A22777D008964EA /* Fractal.swift in Sources */,
+				1D4767761A3827E700EDEFBB /* FractalMetadata.swift in Sources */,
+				1D0349441A216AB400C955BD /* AppDelegate.swift in Sources */,
+				1D73E9F71A25C9EF00A0818C /* FractalParams.swift in Sources */,
+				1D73E9F51A25B60B00A0818C /* Size.swift in Sources */,
+				1D73E9F31A25B57400A0818C /* Rect.swift in Sources */,
+				1DF804461A2D85070038CBDB /* ImageVideoRecorder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D03494C1A216AB400C955BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0349571A216AB400C955BD /* Atk_Rnd_Fractal2dTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D0349521A216AB400C955BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D03493D1A216AB400C955BD /* Atk_Rnd_Fractal2d */;
+			targetProxy = 1D0349511A216AB400C955BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D0349491A216AB400C955BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D03494A1A216AB400C955BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D0349581A216AB400C955BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D0349591A216AB400C955BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D03495B1A216AB400C955BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Atk_SharedComponents-cyarakmqhzphvveloycyshguxjxv/Build/Products/Debug",
+				);
+				INFOPLIST_FILE = Atk_Rnd_Fractal2d/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Atk_Rnd_Fractal2d/Atk_Rnd_Fractal2d-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D03495C1A216AB400C955BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Atk_SharedComponents-cyarakmqhzphvveloycyshguxjxv/Build/Products/Release",
+				);
+				INFOPLIST_FILE = Atk_Rnd_Fractal2d/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Atk_Rnd_Fractal2d/Atk_Rnd_Fractal2d-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		1D03495E1A216AB400C955BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Atk_Rnd_Fractal2dTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atk_Rnd_Fractal2d.app/Contents/MacOS/Atk_Rnd_Fractal2d";
+			};
+			name = Debug;
+		};
+		1D03495F1A216AB400C955BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Atk_Rnd_Fractal2dTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Atk_Rnd_Fractal2d.app/Contents/MacOS/Atk_Rnd_Fractal2d";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D0349391A216AB400C955BD /* Build configuration list for PBXProject "Atk_Rnd_Fractal2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0349581A216AB400C955BD /* Debug */,
+				1D0349591A216AB400C955BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D03495A1A216AB400C955BD /* Build configuration list for PBXNativeTarget "Atk_Rnd_Fractal2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D03495B1A216AB400C955BD /* Debug */,
+				1D03495C1A216AB400C955BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D03495D1A216AB400C955BD /* Build configuration list for PBXNativeTarget "Atk_Rnd_Fractal2dTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D03495E1A216AB400C955BD /* Debug */,
+				1D03495F1A216AB400C955BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D0349361A216AB400C955BD /* Project object */;
+}
